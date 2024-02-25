@@ -1,0 +1,58 @@
+#gameMainContainer{
+  width: 200  !important;
+  height: auto;
+  text-align: center;
+  margin: auto;
+ 
+  .btn:nth-child(1) {  
+    border-left: 4px solid oklch(var(--bc));
+  }
+  
+  .btn:nth-child(3n) {  
+    border-right: 4px solid oklch(var(--nc));
+    
+  }
+  .btn:nth-child(9) {  
+    border-right: 4px solid oklch(var(--bc));
+
+  }
+  .row-0>.btn{
+    border-top: 4px solid oklch(var(--bc));
+  }
+  .row-8>.btn{
+    border-bottom: 4px solid oklch(var(--bc));
+  }
+  
+  .row-3>.btn{
+    border-top: 3px solid oklch(var(--nc));
+  }
+  .row-2>.btn{
+    border-bottom: 3px solid oklch(var(--nc));
+  }
+  .row-6>.btn{
+    border-top: 3px solid oklch(var(--nc));
+  }
+  .row-5>.btn{
+    border-bottom: 3px solid oklch(var(--nc));
+  }
+
+  margin-top:5rem;
+  max-width: 80%;
+
+}
+
+
+
+#gameMainContainer .btn{
+  width: 3rem !important;
+  height: 1rem !important;
+  margin: 0;
+  border: 1px solid oklch(var(--bc));
+  border-radius: 0;
+}
+
+.changed {
+  border: 1px solid lightblue ;
+  color: oklch(var(--nc));
+  font-weight: 700;
+}
