@@ -5,7 +5,7 @@ import { buildGrid } from "./sudoku-repository";
 
 // Correct the props to be a single object
 export interface GameContainerProps {
-    sudoku: Tile[9][9];
+    sudoku: Tile[][];
     solution: string;
   }
 
