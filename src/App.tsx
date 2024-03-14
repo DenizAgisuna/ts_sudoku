@@ -1,8 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-import Footer from "./layout/Footer";
-import Header from "./layout/Header";
+
 import { sudokuArray, buildGrid } from "./sudoku-repository";
 
 
